@@ -374,7 +374,7 @@ nav a:focus {
 @media (min-width: 60rem) {
 
     .about {
-        height: 75vh;
+        height: 100vh;
     }
 
     .about .about-content .right {
@@ -417,5 +417,215 @@ nav a:focus {
         color: #000;
         text-shadow:
             0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+}
+
+
+/* ArtSection
+================ */
+
+.second-art .first-art{
+    display: flex;
+}
+
+.first-art img{
+    width: 100%;
+    float: left;
+}
+
+.first-art-text{
+    font-size: 2.5em;
+    padding-top: 77%;
+    padding-bottom: 11%
+}
+
+.first-art-text h1{
+    text-shadow:
+    0.25em 0.25em 0 rgba(41, 34, 34, 0.75);
+}
+
+.first-art-text h2{
+    padding-top: 2%;
+    font-size: 2rem;
+    text-shadow:
+    0.25em 0.15em 0 rgba(41, 34, 34, 0.75);
+}
+
+.second-art img{
+    width: 100%;
+    float: left;
+}
+
+.second-art-text{
+    font-size: 2.5em;
+    padding-top: 83%;
+    padding-bottom: 11%
+}
+
+.second-art-text h1{
+    text-shadow:
+    0.025em 0.05em 0 rgba(85, 49, 131, 0.75),
+    0.25em 0.025em 0 rgba(49, 131, 120, 0.75),
+    0.045em 0.5em 0 rgba(71, 49, 131, 0.75),
+    0.5em 0.25em 0 rgba(172, 13, 13, 0.75);
+}
+
+.second-art-text h2{
+    padding-top: 2%;
+    font-size: 2rem;
+    text-shadow:
+    0.025em 0.05em 0 rgba(85, 49, 131, 0.75),
+    0.25em 0.025em 0 rgba(49, 131, 120, 0.75),
+    0.045em 0.5em 0 rgba(71, 49, 131, 0.75),
+    0.5em 0.25em 0 rgba(172, 13, 13, 0.75);
+}
+
+
+.third-art img{
+    width: 100%;
+    float: left;
+}
+
+.third-art-text{
+    font-size: 2.5em;
+    padding-top: 77%;
+    padding-bottom: 11%
+}
+
+.third-art-text h1{
+    text-shadow:
+    0.25em 0.25em 0 rgba(167, 30, 30, 0.75);
+}
+
+.third-art-text h2{
+    padding-top: 2%;
+    font-size: 2rem;
+    text-shadow:
+    0.25em 0.15em 0 rgba(167, 30, 30, 0.75);
+}
+.fourth-art img{
+    width: 100%;
+    float: left;
+}
+
+.fourth-art-text{
+    font-size: 2.5em;
+    padding-top: 77%;
+    padding-bottom: 11%
+}
+
+.fourth-art-text h1{
+    text-shadow:
+    0.25em 0.25em 0 rgba(255, 251, 36, 0.75),
+        0.5em 0.055em 0 rgba(150, 9, 9, 0.75);
+}
+
+.fourth-art-text h2{
+    padding-top: 2%;
+    font-size: 2rem;
+    text-shadow:
+    0.25em 0.25em 0 rgba(120, 36, 255, 0.75),
+        0.5em 0.055em 0 rgba(9, 98, 150, 0.75);;
+}
+
+@media (min-width: 60rem){
+    .second-art .first-art .third-art{
+        display: flex;
+    }
+    
+    .first-art img{
+        width: 66%;
+        float: left;
+    }
+    
+    .first-art-text{
+        font-size: 2.5em;
+        padding-top: 10%;
+    }
+    
+    .first-art-text h1{
+        text-shadow:
+        0.25em 0.25em 0 rgba(41, 34, 34, 0.75);
+    }
+    
+    .first-art-text h2{
+        padding-top: 2%;
+        font-size: 2rem;
+        text-shadow:
+        0.25em 0.15em 0 rgba(41, 34, 34, 0.75);
+    }
+    
+    .second-art img{
+        width: 66%;
+        float: left;
+    }
+    
+    .second-art-text{
+        font-size: 2.5em;
+        padding-top: 10%;
+    }
+    
+    .second-art-text h1{
+        text-shadow:
+        0.025em 0.05em 0 rgba(85, 49, 131, 0.75),
+        0.25em 0.025em 0 rgba(49, 131, 120, 0.75),
+        0.045em 0.5em 0 rgba(71, 49, 131, 0.75),
+        0.5em 0.25em 0 rgba(172, 13, 13, 0.75);
+    }
+    
+    .second-art-text h2{
+        padding-top: 2%;
+        font-size: 2rem;
+        text-shadow:
+        0.025em 0.05em 0 rgba(85, 49, 131, 0.75),
+        0.25em 0.025em 0 rgba(49, 131, 120, 0.75),
+        0.045em 0.5em 0 rgba(71, 49, 131, 0.75),
+        0.5em 0.25em 0 rgba(172, 13, 13, 0.75);
+    }
+
+    .third-art img{
+        width: 66%;
+        float: left;
+    }
+    
+    .third-art-text{
+        font-size: 2.5em;
+        padding-top: 10%;
+    }
+    
+    .third-art-text h1{
+        text-shadow:
+        0.25em 0.25em 0 rgba(167, 30, 30, 0.75);
+    }
+    
+    .third-art-text h2{
+        padding-top: 2%;
+        font-size: 2rem;
+        text-shadow:
+        0.25em 0.15em 0 rgba(167, 30, 30, 0.75);
+    }
+    .fourth-art img{
+        width: 66%;
+        float: left;
+    }
+    
+    .fourth-art-text{
+        font-size: 2.5em;
+        padding-top: 10%;
+    }
+    
+    .fourth-art-text h1{
+        text-shadow:
+        0.25em 0.25em 0 rgba(160, 255, 36, 0.75),
+        
+        0.5em 0.055em 0 rgba(255, 153, 36, 0.75);
+    }
+    
+    .fourth-art-text h2{
+        padding-top: 2%;
+        font-size: 2rem;
+        text-shadow:
+        0.25em 0.25em 0 rgba(120, 36, 255, 0.75),
+        0.5em 0.055em 0 rgba(9, 98, 150, 0.75);
     }
 }
