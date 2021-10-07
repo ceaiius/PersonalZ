@@ -160,7 +160,7 @@ nav ul {
 
 .nav-ul.show {
     display: flex;
-    padding-left: 1em;
+    padding-left: 4em;
     padding-top: 1em;
 }
 
@@ -175,11 +175,7 @@ nav a {
     text-transform: uppercase;
     font-size: 1rem;
     padding: 0.5em;
-    color: rgb(32, 25, 95);
-
-
-
-
+    color: #6F69AC
 }
 
 nav a:hover,
@@ -272,7 +268,7 @@ nav a:focus {
     }
 
     nav a {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
@@ -313,7 +309,7 @@ nav a:focus {
     background-image: url(./assets/background.jpg);
     background-size: cover;
     background-position: center;
-    height: 75vh;
+    height: 100vh;
 
 
 
@@ -326,7 +322,7 @@ nav a:focus {
 
 .about .about-content .left img {
     position: relative;
-    left: 50%;
+    left: 60%;
     height: 200px;
     width: 200px;
     object-fit: cover;
@@ -341,22 +337,24 @@ nav a:focus {
 }
 
 .about .about-content .right .text {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bolder;
     color: rgb(39, 24, 24);
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75);
 
 }
 
 .about p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "Inconsolata", sans-serif;
     font-weight: 600;
     color: rgb(39, 24, 24);
     padding-top: 3em;
+    text-shadow: 0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
 }
 
 .about-me-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 1.5em;
     font-weight: 900;
     padding-top: 1em;
@@ -371,6 +369,11 @@ nav a:focus {
 
 
 @media (min-width: 60rem) {
+
+    .about {
+        height: 75vh;
+    }
+
     .about .about-content .right {
         width: 55%;
         padding-left: 25%;
@@ -384,8 +387,8 @@ nav a:focus {
         border-radius: 6px;
         float: left;
         position: absolute;
-        top: 130%;
-        left: 15%;
+        top: 125%;
+        left: 12%;
     }
 
     .about-me-title {
@@ -393,12 +396,14 @@ nav a:focus {
     }
 
     .about .about-content .right .text {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 800;
-        color: rgb(39, 24, 24);
+        color: #000;
         position: absolute;
         top: 130%;
-        left: 35%;
+        left: 40%;
+        text-shadow:
+            0.05em 0 0 rgba(255, 0, 0, 0.75)
     }
 
     .about p {
@@ -406,6 +411,8 @@ nav a:focus {
         font-family: "Inconsolata", sans-serif;
         font-weight: 600;
         padding-top: 5em;
-        color: rgb(39, 24, 24);
+        color: #000;
+        text-shadow:
+            0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
     }
 }
