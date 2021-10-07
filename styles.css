@@ -150,17 +150,18 @@ header {
 }
 
 nav ul {
-    display: none;
+    transform: translateX(-120%);
     margin: 0;
     padding: 0;
     list-style: none;
-
-
+    overflow: hidden;
+    transition: transform 0.5s;
+    position: absolute;
 }
 
 .nav-ul.show {
-    display: flex;
-    padding-left: 4em;
+    transform: translateX(0);
+    padding-left: 1em;
     padding-top: 1em;
 }
 
@@ -175,8 +176,9 @@ nav a {
     text-transform: uppercase;
     font-size: 1rem;
     padding: 0.5em;
-    color: #6F69AC
+    color: #6F69AC;
 }
+
 
 nav a:hover,
 nav a:focus {
@@ -309,7 +311,7 @@ nav a:focus {
     background-image: url(./assets/background.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: max-content;
 
 
 
@@ -322,7 +324,7 @@ nav a:focus {
 
 .about .about-content .left img {
     position: relative;
-    left: 60%;
+    left: 50%;
     height: 200px;
     width: 200px;
     object-fit: cover;
@@ -349,6 +351,7 @@ nav a:focus {
     font-family: "Inconsolata", sans-serif;
     font-weight: 600;
     color: rgb(39, 24, 24);
+    padding-bottom: 3em;
     padding-top: 3em;
     text-shadow: 0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
 }

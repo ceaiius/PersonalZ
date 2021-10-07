@@ -3,11 +3,11 @@ const navUL = document.querySelector(".nav-ul");
 let menuOpen = false;
 
 menuBtn.addEventListener("click", () => {
-    if(!menuOpen){
+    if (!menuOpen) {
         menuBtn.classList.add("open");
         navUL.classList.add("show")
         menuOpen = true;
-    }else {
+    } else {
         menuBtn.classList.remove("open");
         navUL.classList.remove("show")
         menuOpen = false;
